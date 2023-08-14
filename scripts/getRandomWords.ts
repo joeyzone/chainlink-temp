@@ -15,7 +15,7 @@ async function test() {
     "VRFv2Consumer",
     process.env.SEPOLIA_VRFCONSUMER_ADDR || ""
   );
-  console.log("randomWords is : ", await vrfConsumer.s_randomWords(0));
+  console.log("random words is : ", await vrfConsumer.s_randomWords(0));
 }
 
 // We recommend this pattern to be able to use async/await everywhere
